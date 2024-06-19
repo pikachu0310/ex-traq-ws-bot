@@ -17,7 +17,7 @@ import (
 )
 
 const (
-	defaultOrigin       = "wss://q.trap.jp"
+	defaultOrigin       = "wss://ex.q.trap.jp"
 	botGatewayPath      = "/api/v3/bots/ws"
 	authorizationScheme = "Bearer"
 	firstRetryWait      = 3 * time.Second
@@ -34,8 +34,8 @@ func wsOriginToHTTPOrigin(wsURI string) string {
 type Options struct {
 	// AccessToken BOTのアクセストークン (required)
 	AccessToken string
-	// Origin traQオリジン (default: wss://q.trap.jp)
-	// e.g. wss://q.trap.jp, ws://localhost:3000
+	// Origin traQオリジン (default: wss://ex.q.trap.jp)
+	// e.g. wss://ex.q.trap.jp, ws://localhost:3000
 	Origin string
 	// DisableAutoReconnect 接続が終了した、もしくは失敗した場合の自動再接続を無効化する (default: false)
 	DisableAutoReconnect bool
