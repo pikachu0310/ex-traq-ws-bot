@@ -14,7 +14,7 @@ import (
 func Example() {
 	bot, err := traqwsbot.NewBot(&traqwsbot.Options{
 		AccessToken: os.Getenv("ACCESS_TOKEN"), // Required
-		Origin:      "wss://ex.q.trap.jp",      // Optional (default: wss://q.trap.jp)
+		Origin:      "wss://q.ex.trap.jp",      // Optional (default: wss://q.trap.jp)
 	})
 	if err != nil {
 		panic(err)
