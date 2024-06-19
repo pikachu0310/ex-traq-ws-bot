@@ -6,7 +6,7 @@ require (
 	github.com/gofrs/uuid v4.2.0+incompatible
 	github.com/gorilla/websocket v1.5.0
 	github.com/traPtitech/go-traq v0.0.0-20220426061605-adc15dcfc6d0
-	github.com/traPtitech/traq-ws-bot v0.0.0-00010101000000-000000000000
+	github.com/traPtitech/traq-ws-bot v1.1.3
 )
 
 require (
