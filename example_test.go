@@ -7,8 +7,8 @@ import (
 
 	"github.com/traPtitech/go-traq"
 
-	"github.com/traPtitech/traq-ws-bot"
-	"github.com/traPtitech/traq-ws-bot/payload"
+	"github.com/pikachu0310/ex-traq-ws-bot"
+	"github.com/pikachu0310/ex-traq-ws-bot/payload"
 )
 
 func Example() {

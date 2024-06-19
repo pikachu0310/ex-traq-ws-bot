@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/traPtitech/traq-ws-bot/event"
-	"github.com/traPtitech/traq-ws-bot/payload"
+	"github.com/pikachu0310/ex-traq-ws-bot/event"
+	"github.com/pikachu0310/ex-traq-ws-bot/payload"
 )
 
 func (b *Bot) handleMultiCast(event string, raw json.RawMessage) {
